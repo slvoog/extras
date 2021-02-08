@@ -1,0 +1,59 @@
+name: Extras
+main: pw.kaboom.extras.Main
+description: Plugin that adds extra functionality to the server.
+api-version: 1.13
+version: master
+
+commands:
+   broadcastraw:
+      aliases: [bcraw, tellraw]
+      description: Broadcasts raw text to the server
+      permission: extras.broadcastraw
+   broadcastvanilla:
+      aliases: [bcv]
+      description: Broadcasts text in vanilla style
+      permission: extras.broadcastvanilla
+   clearchat:
+      aliases: cc
+      description: Clears messages from the chat
+      permission: extras.clearchat
+   console:
+      description: Broadcasts a message as the console
+      permission: extras.console
+   destroyentities:
+      aliases: de
+      description: Destroys all entities in every world
+      permission: extras.destroyentities
+   enchantall:
+      description: Adds every enchantment to a held item
+      permission: extras.enchantall
+   jumpscare:
+      aliases: scare
+      description: Scares a player
+      permission: extras.jumpscare
+   kaboom:
+      description: I wonder...
+      permission: extras.kaboom
+   prefix:
+      aliases: [rank, tag]
+      description: Changes your tag
+      permission: extras.prefix
+   pumpkin:
+      description: Places a pumpkin on a player's head
+      permission: extras.pumpkin
+   serverinfo:
+      aliases: specs
+      description: Shows detailed server information
+      permission: extras.serverinfo
+   skin:
+      description: Changes your skin
+      permission: extras.skin
+   spawn:
+      description: Teleports you to spawn
+      permission: extras.spawn
+   spidey:
+      description: Annoying little spider...
+      permission: extras.spidey
+   username:
+      description: Changes your username on the server
+      permission: extras.username
