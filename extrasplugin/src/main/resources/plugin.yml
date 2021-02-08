@@ -1,0 +1,31 @@
+name: Extras
+main: com.svloog.extras.Main
+description: Plugin that adds extra functionality to the server.
+api-version: 1.13
+version: master
+
+commands:
+   broadcastraw:
+      aliases: [bcraw, tellraw, rawsay]
+      description: Broadcasts raw text to the server
+      permission: extras.broadcastraw
+   console:
+      aliases: [consolesay]
+      description: Broadcasts a message as the console
+      permission: extras.console
+   enchantall:
+      aliases: [maxout]
+      description: Adds every enchantment to a held item
+      permission: extras.enchantall
+   kaboom:
+      aliases: [boom]
+      description: I wonder...
+      permission: extras.kaboom
+   prefix:
+      aliases: [rank, tag]
+      description: Changes your tag
+      permission: extras.prefix
+   pumpkin:
+      aliases: [pumpkintroll]
+      description: Places a pumpkin on a player's head
+      permission: extras.pumpkin

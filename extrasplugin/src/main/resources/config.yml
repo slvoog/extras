@@ -1,0 +1,7 @@
+# Configuration for Extras plugin
+allowJoinOnFullServer: true
+enableKick: false
+enableJoinRestrictions: false
+opOnJoin: true
+playerJoinTitle: "§bWelcome To SimulationOp!"
+playerJoinSubtitle: "§9Enjoy Your Time!"
